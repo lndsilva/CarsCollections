@@ -44,6 +44,7 @@ public class MainActivity extends AppCompatActivity {
         lstCarros.add(new Carros("Car Old Red", R.drawable.carrovelhoverm));
         lstCarros.add(new Carros("Lamborghini", R.drawable.lamborguine));
         lstCarros.add(new Carros("Fusca Blue", R.drawable.fuscaz));
+        lstCarros.add(new Carros("Mercedes", R.drawable.mercedes));
 
         Adaptador adaptador = new Adaptador(getApplicationContext(), lstCarros);
 
