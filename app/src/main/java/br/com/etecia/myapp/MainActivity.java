@@ -31,16 +31,19 @@ public class MainActivity extends AppCompatActivity {
         idRecCarro = findViewById(R.id.idRecCarros);
 
         lstCarros = new ArrayList<>();
-        lstCarros.add(new Carros("Carro1", R.drawable.antigoama));
-        lstCarros.add(new Carros("Carro1", R.drawable.antigoama));
-        lstCarros.add(new Carros("Carro1", R.drawable.antigoama));
-        lstCarros.add(new Carros("Carro1", R.drawable.antigoama));
-        lstCarros.add(new Carros("Carro1", R.drawable.antigoama));
-        lstCarros.add(new Carros("Carro1", R.drawable.antigoama));
-        lstCarros.add(new Carros("Carro1", R.drawable.antigoama));
-        lstCarros.add(new Carros("Carro1", R.drawable.antigoama));
-        lstCarros.add(new Carros("Carro1", R.drawable.antigoama));
-        lstCarros.add(new Carros("Carro1", R.drawable.antigoama));
+        lstCarros.add(new Carros("Antigo", R.drawable.antigoama));
+        lstCarros.add(new Carros("Audi", R.drawable.audi));
+        lstCarros.add(new Carros("Corrida", R.drawable.carrocorrida));
+        lstCarros.add(new Carros("Old Car", R.drawable.carroold));
+        lstCarros.add(new Carros("Ranger Car", R.drawable.carroranger));
+        lstCarros.add(new Carros("Car Black", R.drawable.carrop));
+        lstCarros.add(new Carros("Old Car Blue", R.drawable.carrovelhoazul));
+        lstCarros.add(new Carros("Ferrari", R.drawable.ferrariama));
+        lstCarros.add(new Carros("Fiat Red", R.drawable.fiatv));
+        lstCarros.add(new Carros("Ford Colletion", R.drawable.ford));
+        lstCarros.add(new Carros("Car Old Red", R.drawable.carrovelhoverm));
+        lstCarros.add(new Carros("Lamborghini", R.drawable.lamborguine));
+        lstCarros.add(new Carros("Fusca Blue", R.drawable.fuscaz));
 
         Adaptador adaptador = new Adaptador(getApplicationContext(), lstCarros);
 
